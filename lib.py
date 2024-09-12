@@ -10,5 +10,4 @@ if __name__ == '__main__':
     list1 = [1,2,3,6]
     list2 = [3, 8, 1, 2]
     result = returnMatches(list1, list2)
-    print("mas:", result["matches"])
-    print("count:", result["count"])
+    print(f"mas: {result['matches']}, count: {result['count']}")
